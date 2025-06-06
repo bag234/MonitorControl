@@ -236,6 +236,10 @@ int main(int argc, char* argv[]) {
 		if (arg.rfind("-d", 0) == 0) {
 			printMonSetting(*mon);
 		}
+		if (arg.rfind("-h", 0) == 0) {
+			pr_help();
+		}
+	}
 	}
 	
 	// change setting monitor 
